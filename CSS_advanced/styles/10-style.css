@@ -17,6 +17,7 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
   }
 html {
     scroll-behavior: smooth;
@@ -31,8 +32,14 @@ body{
 body, a{
     color: var(--text-color);
 }
+a{
+    text-decoration: none;
+}
 .visually-hidden{
     display: none;
+}
+.section-header{
+    text-align: var(--section-header-align);
 }
 .card-category, .section-tagline{
     color: var(--color-primary) ;
