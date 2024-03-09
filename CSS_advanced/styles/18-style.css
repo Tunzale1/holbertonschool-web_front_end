@@ -51,6 +51,10 @@ body{
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
+h1, h2, h3, h4, h5, h6{
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-title);
+}
 body, a{
     color: var(--text-color);
 }
@@ -65,30 +69,6 @@ a:hover{
 }
 a:active{
     background-color: var(--color-light-grey);
-}
-.navbar-menu {
-    float: right;
-}
-nav{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    text-align: center;
-}
-nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
-}
-nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-}
-nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
 }
 .visually-hidden{
     display: none;
@@ -130,7 +110,28 @@ nav .nav-link:hover {
 .card-category, .section-tagline{
     color: var(--color-primary) ;
 }
-h1, h2, h3, h4, h5, h6{
-    font-weight: var(--font-weight-bold);
-    font-family: var(--font-family-title);
+.navbar-menu {
+    float: right;
 }
+.nav{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+.nav .nav-item {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
